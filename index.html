@@ -1,0 +1,47 @@
+
+<!--
+  C0954533
+  Sairam_Burri
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Real-Time Cryptocurrency Tracker</h1>
+  </header>
+  <main>
+    <section id="crypto-list">
+      <h2>Cryptocurrency Listing</h2>
+      <div id="currencies"></div>
+    </section>
+
+    <section id="comparison">
+      <h2>Comparison (Max 5)</h2>
+      <div id="compare-list"></div>
+    </section>
+
+    <section id="preferences">
+      <h2>User Preferences</h2>
+      <label>
+        <input type="checkbox" id="show-24h-change"> Show 24h Price Change
+      </label>
+      <label>
+        Sort by:
+        <select id="sort-option">
+          <option value="market_cap_desc">Market Cap (High to Low)</option>
+          <option value="market_cap_asc">Market Cap (Low to High)</option>
+        </select>
+      </label>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
