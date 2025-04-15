@@ -1,62 +1,63 @@
-
 /*
   C0954533
   Sairam_Burri
 */
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-  }
-  
-  header {
-    background: #4CAF50;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  main {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  section {
-    background: white;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  
-  #currencies, #compare-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .currency, .compare-item {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    flex: 1 1 200px;
-    cursor: pointer;
-    background: #fafafa;
-  }
-  
-  .currency:hover, .compare-item:hover {
-    background: #e0f7fa;
-  }
-  
-  h2 {
-    margin-bottom: 1rem;
-  }
-  
-  label {
-    display: block;
-    margin-top: 0.5rem;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8; /* Soft light blue background */
+}
+
+header {
+  background: #5c6bc0; /* Indigo */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#currencies, #compare-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.currency, .compare-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1 1 200px;
+  cursor: pointer;
+  background: #fefefe; /* Slightly lighter white */
+  transition: background 0.3s ease;
+}
+
+.currency:hover, .compare-item:hover {
+  background: #d1c4e9; /* Lavender hover */
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #3949ab; /* Darker indigo */
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+  color: #333;
+}
